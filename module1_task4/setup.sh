@@ -6,5 +6,5 @@
 # with the directory ./dist containing the generated website
 
 sudo apt-get update
-sudo apt-get install -y hugo make
-hugo new site new_site_bro
+sudo apt-get install -y hugo make curl build-essential
+hugo new site dist
