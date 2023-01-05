@@ -6,7 +6,7 @@ clean:	## Cleanup the content of the directory ./dist
 	rm -fr dist
 
 
-post:	## Creates a post with given POST_NAME and POST_TITLE.
+post:	## Creates a post with given POST_NAME and POST_TITLE
 	hugo new posts/$(POST_NAME).md
 	sed -i '/title/c\title: "$(POST_TITLE)"' content/posts/$(POST_NAME).md
 
