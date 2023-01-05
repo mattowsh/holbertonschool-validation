@@ -11,3 +11,5 @@ This project aims at showing use cases where a DevOps mindset is bringing value 
 - **clean**: Cleanup the content of the directory ./dist
 - **post**: Creates a post with given POST_NAME and POST_TITLE
 - **help**: Provides information about all Makefile targets defined
+
+## Workflow:
