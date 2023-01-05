@@ -10,6 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - user: mattowsh/holbertonschool-validation@v1
       - name: Check out repository code
       - run: make help
 ---
